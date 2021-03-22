@@ -1025,7 +1025,7 @@ p {
     margin-right: 20px;
 }
 
-.footer .widget-wrapper .footer-widget .download li a {
+.footer-widget .download li a {
     display: inline-flex;
     background: #fff;
     border-radius: 10px;
@@ -1034,19 +1034,46 @@ p {
     align-items: center;
 }
 
-.footer .widget-wrapper .footer-widget .download li a .icon {
+.footer-widget .download li a .icon {
     font-size: 30px;
     color: #1D2A5D;
     margin-right: 10px;
 }
 
-.footer .widget-wrapper .footer-widget .download li a .text {
+.footer-widget .download li a .text {
     font-size: 10px;
     color: #60698D;
 }
 
-.footer .widget-wrapper .footer-widget .download li a .text b {
+.footer-widget .download li a .text b {
     color: #1D2A5D;
+    font-size: 16px;
+    font-weight: 700;
+    display: block;
+}
+
+.footer-widget .download-2 li a {
+    display: inline-flex;
+    background: #ff6a00;
+    border-radius: 10px;
+    padding: 15px 25px;
+    margin-bottom: 15px;
+    align-items: center;
+}
+
+.footer-widget .download-2 li a .icon {
+    font-size: 30px;
+    color: #fff;
+    margin-right: 10px;
+}
+
+.footer-widget .download-2 li a .text {
+    font-size: 10px;
+    color: #fff;
+}
+
+.footer-widget .download-2 li a .text b {
+    color: #fff;
     font-size: 16px;
     font-weight: 700;
     display: block;
@@ -1097,6 +1124,74 @@ p {
 
 .footer .copy-right-wrapper .socials ul li a:hover {
     color: #fff;
+}
+
+.social-icon li {
+    display: inline-block
+}
+
+.social-icon li a {
+    color: #000;
+    background: #fff;
+    width: 35px;
+    height: 35px;
+    line-height: 38px;
+    display: block;
+    text-align: center;
+    border-radius: 100%;
+    font-size: 16px;
+    margin: 15px 6px 12px;
+    transition: all .3s ease-in-out 0s;
+    -moz-transition: all .3s ease-in-out 0s;
+    -webkit-transition: all .3s ease-in-out 0s;
+    -o-transition: all .3s ease-in-out 0s
+}
+
+.social-icon li a:hover {
+    color: #fff
+}
+
+.social-icon li .facebook:hover {
+    background: #3b5999
+}
+
+.social-icon li .twitter:hover {
+    background: #4a9cec
+}
+
+.social-icon li .instagram:hover {
+    background: #d6274d
+}
+
+.social-icon li .linkedin:hover {
+    background: #1260a2
+}
+
+.social-icon li .ply-str:hover {
+    background: #00f076
+}
+
+.footer-area {
+    background: #ff842c
+}
+
+.footer-area .footer-text p {
+    font-size: 14px;
+    margin-top: 20px;
+    color: #fff
+}
+
+.footer-area .footer-text p a {
+    color: #00b4d9
+}
+
+.footer-area .footer-text .nav-inline .nav-link {
+    padding: 11px 7px;
+    color: #888
+}
+
+.footer-area .footer-text .nav-inline .nav-link:hover {
+    color: #00b4d9
 }
 
 
